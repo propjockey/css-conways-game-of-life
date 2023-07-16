@@ -5396,6 +5396,16 @@ body { display: grid; }
   grid-template-rows: repeat(42, 1fr);
 }
 
+.gen-0 [type="checkbox"] {
+  cursor: pointer;
+}
+.gen-0 [type="checkbox"]:not(:checked) {
+  opacity: 0.25;
+}
+.gen-0 [type="checkbox"]:hover {
+  opacity: 1;
+}
+
 .css-game-of-life-infinite:has(.periodic :checked) {
   --cell--1--1-in: var(--cell-41-41-in);
   --cell-42-42-in: var(--cell-0-0-in);
